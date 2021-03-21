@@ -1,0 +1,9 @@
+- hosts: tag_name_master
+  roles:
+       - role: "master"
+
+- hosts: tag_name_slave
+  roles:
+       - role: "slave"
+
+
